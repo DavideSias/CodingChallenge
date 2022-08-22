@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 100px 90px;
+  background: rgba(13, 13, 13, 0.5);
+  border-radius: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.slogan{
+  color: #00e600;
+  font-weight: normal;
+}
+
+.navigator, .testata{
+  text-align: center;
+}
+
+.navigator{
+  background-color: #00e600;
+  padding: 10px;
+}
+
+.scooter{
+  margin: 25px 0;
+}
+
+.monopattino{
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.address{
+  margin-bottom: 5px;
+}
+
+.box{
+  height: 30px;
+  border-radius: 5px;
+}
+
+.box.gino {
+  width: 30%;
+  background-color: #ffa64d;
+}
+
+.box.mike {
+  width: 60%;
+  background-color: #00cc00;
+}
+
+.box.fede {
+  width: 15%;
+  background-color: #ff3333;
+}
